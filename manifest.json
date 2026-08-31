@@ -1,0 +1,223 @@
+{
+  "source_base_path": "C:/jenkins/workspace/jobs/doc/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/FB_Test1.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/FB_Test1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/FB_Test1_Base.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/FB_Test1_Base.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/F_GetCompany.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/F_GetCompany.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/F_GetTitle.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/F_GetTitle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/F_GetVersion.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/F_GetVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/F_Test1.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/F_Test1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/GVL_Test1.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/GVL_Test1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/Global_Version.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/Global_Version.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/I_Base.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/I_Base.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/POU.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/POU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/ST_Base.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/ST_Base.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc1/ST_Test1.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/ST_Test1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "reference/ZK_Doc1/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc1/toc.html"
+        },
+        ".json": {
+          "relative_path": "reference/ZK_Doc1/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "reference/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/toc.html"
+        },
+        ".json": {
+          "relative_path": "reference/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "userguide/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "userguide/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "userguide/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "userguide/toc.html"
+        },
+        ".json": {
+          "relative_path": "userguide/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
