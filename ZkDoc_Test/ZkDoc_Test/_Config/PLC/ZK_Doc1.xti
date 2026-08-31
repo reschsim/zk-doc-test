@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.25" ClassName="CNestedPlcProjDef">
+	<Project GUID="{7D898185-233C-408A-8D08-4E35B6B5ACBB}" Name="ZK_Doc1" PrjFilePath="..\..\ZK_Doc1\ZK_Doc1.plcproj" TmcFilePath="..\..\ZK_Doc1\ZK_Doc1.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{84DEC398-1060-FD1C-F81D-91E5FD7A48EB}">
+			<Name>ZK_Doc1 Instance</Name>
+			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+			<JsonDynPous><![CDATA[null]]></JsonDynPous>
+		</Instance>
+	</Project>
+</TcSmItem>

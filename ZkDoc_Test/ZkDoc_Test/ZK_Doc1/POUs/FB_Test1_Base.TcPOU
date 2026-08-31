@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_Test1_Base" Id="{e8068e8a-7f86-46dd-bec1-e6051adfee17}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Test1_Base
+VAR_INPUT
+	nInput1 : INT := 1;
+END_VAR
+VAR_OUTPUT
+	sOutput1 : T_MaxString := "This is output 1";
+END_VAR
+VAR
+	nVar1 : INT;
+	nVar2 : INT;
+	sVar3 : T_MaxString;
+	bVar4 : BOOL;
+END_VAR
+VAR CONSTANT
+	nConst1 : INT := 2026;
+	sConst2 : STRING(155) := 'Constant 2';
+END_VAR
+VAR PERSISTENT
+	nVarPers : LREAL := 155.155;
+	
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="M_SetVar" Id="{28b55f5b-b6d8-46c8-8db0-4904c22c755d}">
+      <Declaration><![CDATA[METHOD INTERNAL M_SetVar : BOOL
+VAR_INPUT
+	nVarIn1 : INT;
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[P_nVar1 := nVarIn1;
+M_SetVar := nVarIn1 >= 100;
+RETURN;]]></ST>
+      </Implementation>
+    </Method>
+    <Property Name="P_FOO" Id="{e026ea42-fac1-4645-af70-a9e901d5f489}">
+      <Declaration><![CDATA[PROPERTY PRIVATE P_FOO : BOOL]]></Declaration>
+      <Get Name="Get" Id="{240f3e9c-8891-4b84-9b3c-8fdc3ea3faa5}">
+        <Declaration><![CDATA[VAR
+	
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[P_FOO := TRUE;
+RETURN;]]></ST>
+        </Implementation>
+      </Get>
+      <Set Name="Set" Id="{3972200d-09a7-419a-9fa3-b190210b07b7}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[bVar4 := P_FOO;]]></ST>
+        </Implementation>
+      </Set>
+    </Property>
+    <Property Name="P_nVar1" Id="{82e8eb42-a4dd-4381-bb3e-dd79da27e399}">
+      <Declaration><![CDATA[PROPERTY PROTECTED P_nVar1 : INT]]></Declaration>
+      <Get Name="Get" Id="{563656eb-c7e1-43af-b47e-7ee8483b1e45}">
+        <Declaration><![CDATA[VAR
+	
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[P_nVar1 := nVar1;
+RETURN;]]></ST>
+        </Implementation>
+      </Get>
+      <Set Name="Set" Id="{fd64a189-af5a-4e05-ab98-256aac99ac1d}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[nVar1 := P_nVar1;]]></ST>
+        </Implementation>
+      </Set>
+    </Property>
+  </POU>
+</TcPlcObject>

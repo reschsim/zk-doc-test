@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <GVL Name="GVL_Test1" Id="{aeb02929-183b-4f54-a473-4f73dfebfef6}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	nGVar1 : INT;
+	aGVar2 : ARRAY[0..100] OF INT;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

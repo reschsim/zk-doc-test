@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="POU" Id="{69af5d91-944a-455f-89fd-cdceba92cb5b}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM POU
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="M_Test1" Id="{d272ab2c-3a36-4b3d-a06c-8c9ae873ad4a}">
+      <Declaration><![CDATA[METHOD ABSTRACT M_Test1 : BOOL
+VAR_INPUT
+	sTest1 : T_MaxString;
+	nTest2 : LREAL;
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Property Name="P_BAR" Id="{8f3d2245-d837-4ab1-b994-b57d7e7feedb}">
+      <Declaration><![CDATA[PROPERTY PROTECTED ABSTRACT P_BAR : BOOL]]></Declaration>
+      <Get Name="Get" Id="{1da35c9b-b2b9-4e21-862c-4a736b41de91}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Get>
+      <Set Name="Set" Id="{8a08dd1a-0de4-4cc7-b524-c71296317bff}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Set>
+    </Property>
+  </POU>
+</TcPlcObject>
