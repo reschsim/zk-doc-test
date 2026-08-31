@@ -4,12 +4,13 @@
     <Declaration><![CDATA[{attribute 'qualified_only'}
 {attribute 'strict'}
 {attribute 'to_string'}
+/// Enum ***DUT***
 TYPE DUT :
 (
-	member1 := 0,
-	member2 := 10,
-	meber3 := 20,
-	meber4 := 30
+	member1 := 0, //< default
+	member2 := 10, //< nr 10
+	meber3 := 20, //< nr 20
+	meber4 := 30 //< nr 30
 );
 END_TYPE
 ]]></Declaration>
@@ -34,7 +35,7 @@ END_TYPE
             </o>
             <o>
               <v n="TextID">"meber4"</v>
-              <v n="TextDefault">"30"</v>
+              <v n="TextDefault">"30 "</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>

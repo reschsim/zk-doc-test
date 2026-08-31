@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_Test1" Id="{77c50e25-75cd-4413-92c4-9984f39dbbc3}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Test1 EXTENDS FB_Test1_Base IMPLEMENTS I_Base
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="M_Test1" Id="{0a02bf00-c5c1-4db2-926e-8670ff912813}">
+      <Declaration><![CDATA[{warning 'Methodenimplementierung hinzufügen'}
+METHOD M_Test1 : INT
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Property Name="P_TestFor" Id="{e01295b5-b542-4662-b7f5-699b6b68d246}">
+      <Declaration><![CDATA[{warning 'Eigenschaftenimplementierung hinzufügen'}
+PROPERTY P_TestFor : BOOL
+]]></Declaration>
+      <Get Name="Get" Id="{a70da4cc-2124-403b-be5a-852b15878880}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[]]></ST>
+        </Implementation>
+      </Get>
+      <Set Name="Set" Id="{fce1c022-7d3a-42f4-9067-2c3d9b39f2d9}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[]]></ST>
+        </Implementation>
+      </Set>
+    </Property>
+  </POU>
+</TcPlcObject>

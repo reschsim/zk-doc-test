@@ -1,8 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1">
   <POU Name="POU" Id="{69af5d91-944a-455f-89fd-cdceba92cb5b}" SpecialFunc="None">
-    <Declaration><![CDATA[PROGRAM POU
+    <Declaration><![CDATA[/// Link to Lisec [Lisec](https://www.lisec.com)
+///![Lisec](../images/logo.png)
+/// This a empty **POU**
+PROGRAM POU
 VAR
+	i : INT;
 END_VAR
 ]]></Declaration>
     <Implementation>

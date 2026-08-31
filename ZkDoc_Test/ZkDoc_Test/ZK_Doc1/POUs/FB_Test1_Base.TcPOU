@@ -1,9 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1">
   <POU Name="FB_Test1_Base" Id="{e8068e8a-7f86-46dd-bec1-e6051adfee17}" SpecialFunc="None">
-    <Declaration><![CDATA[FUNCTION_BLOCK FB_Test1_Base
+    <Declaration><![CDATA[/// This is the **Base** FB for every single FB
+/// Inherited by:
+FUNCTION_BLOCK FB_Test1_Base //< [FB_Test1](xref:ZK_Doc1.FB_Test1)
 VAR_INPUT
-	nInput1 : INT := 1;
+	/// This is the first ___Input___
+	/// Now comes a code example:
+	/// ~~We dont need this~~
+	/// ```st
+	/// METHOD Method1
+	/// VAR_INPUT
+  	/// input1 : BOOL; //< what does this input do
+  	///
+  	/// /// or this one?
+  	/// input2 : INT;
+	/// END_VAR
+	/// ```
+	nInput1 : INT := 1; 
 END_VAR
 VAR_OUTPUT
 	sOutput1 : T_MaxString := "This is output 1";

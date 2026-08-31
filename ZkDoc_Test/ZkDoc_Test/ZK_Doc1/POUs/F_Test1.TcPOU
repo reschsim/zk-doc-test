@@ -1,9 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1">
   <POU Name="F_Test1" Id="{e4b4edce-173d-4a99-bd33-931a37a8a1d4}" SpecialFunc="None">
-    <Declaration><![CDATA[FUNCTION F_Test1 : BOOL
+    <Declaration><![CDATA[/// here comes a function (**FUN**)
+/// ---
+/// And now a mermaid.js diagramm
+/// ```mermaid
+///	stateDiagram-v2
+/// 	[*] --> Init: PLC started
+///		Init --> GoHome: home pressed
+/// 	GoHome --> Idle: done
+///		GoHome --> FaultReaction: aborted
+/// 	FaultReaction --> Init: done\nnot initialized
+///		FaultReaction --> Idle: done
+///		Idle --> GoHome: home pressed
+///		```
+FUNCTION F_Test1 : BOOL
 VAR_INPUT
-	stInput : ST_Test1;
+	stInput : ST_Test1; //< input1
 END_VAR
 VAR
 END_VAR
