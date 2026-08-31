@@ -1,7 +1,5 @@
 name: Documentation
 on:
-  push:
-    branches: [main, develop]
   workflow_dispatch:
 
 jobs:
@@ -15,7 +13,7 @@ jobs:
         with:
           username: ${{ secrets.ZEUGWERK_USERNAME }}
           password: ${{ secrets.ZEUGWERK_PASSWORD }}
-          filepath: '.'
+          filepath: './ZkDoc_Test/ZkDoc_Test/ZK_Doc1/ZK_Doc1.plcproj'
     
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
