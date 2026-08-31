@@ -1,0 +1,24 @@
+name: Documentation
+on:
+  push:
+    branches: [main, develop]
+  workflow_dispatch:
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+    
+      - name: Generate Documentation
+        uses: Zeugwerk/zkdoc-action@v1
+        with:
+          username: ${{ secrets.ZEUGWERK_USERNAME }}
+          password: ${{ secrets.ZEUGWERK_PASSWORD }}
+          filepath: '.'
+    
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: archive/docs/html
