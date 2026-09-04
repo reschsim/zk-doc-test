@@ -1,9 +1,9 @@
 {
   "fileversion": 1,
-  "solution": "Zk_Doc_Test/ZkDoc_Test.sln",
+  "solution": "ZkDoc_Test/ZkDoc_Test.sln",
   "projects": [
     {
-      "name": "Zk_Doc_Test",
+      "name": "ZkDoc_Test",
       "plcs": [
         {
           "version": "0.4.0",
