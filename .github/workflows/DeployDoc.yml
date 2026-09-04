@@ -15,7 +15,7 @@ jobs:
         with:
           username: ${{ secrets.ZEUGWERK_USERNAME }}
           password: ${{ secrets.ZEUGWERK_PASSWORD }}
-          filepath: './ZkDoc_Test/ZkDoc_Test/ZK_Doc1/ZK_Doc1.plcproj'
+          filepath: '.'
 
       - name: Prepare tag
         id: prepare_tag
