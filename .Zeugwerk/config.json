@@ -8,7 +8,7 @@
         {
           "version": "0.4.0",
           "distributor-name": "Simon Resch",
-          "name": "Doc-Test",
+          "name": "Zk_Doc1",
           "type": "Library",
           "frameworks": {},
           "packages": [],
@@ -33,7 +33,7 @@
 		{
           "version": "0.4.0",
           "distributor-name": "Simon Resch",
-          "name": "Doc-Test2",
+          "name": "Zk_Doc1",
           "type": "Library",
           "frameworks": {},
           "packages": [],
