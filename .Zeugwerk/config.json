@@ -1,0 +1,62 @@
+{
+  "fileversion": 1,
+  "solution": "Zk_Doc_Test/ZkDoc_Test.sln",
+  "projects": [
+    {
+      "name": "Zk_Doc_Test",
+      "plcs": [
+        {
+          "version": "0.4.0",
+          "distributor-name": "Simon Resch",
+          "name": "Doc-Test",
+          "type": "Library",
+          "frameworks": {},
+          "packages": [],
+          "references": {},
+          "repositories": [],
+          "bindings": {},
+          "patches": {
+            "platform": {},
+            "argument": {},
+            "license": {}
+          },
+          "description": "",
+          "icon-file": "",
+          "project-url": "",
+          "display-name": "",
+          "authors": "",
+          "entitlement": "",
+          "license": "",
+          "license-file": "",
+          "license-tmc-file": ""
+        },
+		{
+          "version": "0.4.0",
+          "distributor-name": "Simon Resch",
+          "name": "Doc-Test",
+          "type": "Library",
+          "frameworks": {},
+          "packages": [],
+          "references": {},
+          "repositories": [],
+          "bindings": {},
+          "patches": {
+            "platform": {},
+            "argument": {},
+            "license": {}
+          },
+          "description": "",
+          "icon-file": "",
+          "project-url": "",
+          "display-name": "",
+          "authors": "",
+          "entitlement": "",
+          "license": "",
+          "license-file": "",
+          "license-tmc-file": ""
+        }
+      ]
+    }
+  ],
+  "directories": null
+}

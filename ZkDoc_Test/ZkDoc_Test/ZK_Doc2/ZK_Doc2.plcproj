@@ -3,37 +3,35 @@
   <PropertyGroup>
     <FileVersion>1.0.0.0</FileVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7d898185-233c-408a-8d08-4e35b6b5acbb}</ProjectGuid>
+    <ProjectGuid>{936820ea-afd3-4e08-b632-1d6b454897bf}</ProjectGuid>
     <SubObjectsSortedByName>true</SubObjectsSortedByName>
     <DownloadApplicationInfo>true</DownloadApplicationInfo>
     <WriteProductVersion>false</WriteProductVersion>
     <GenerateTpy>false</GenerateTpy>
-    <Name>ZK_Doc1</Name>
+    <Name>ZK_Doc2</Name>
     <ProgramVersion>3.1.4026.25</ProgramVersion>
-    <Application>{17390de3-db3d-4dc9-881a-34116986a36e}</Application>
-    <TypeSystem>{f3f8bf85-a0c3-40dd-83ee-b629e8f09625}</TypeSystem>
-    <Implicit_Task_Info>{bfaa61a4-5aa4-47aa-bc37-91e85f3cb833}</Implicit_Task_Info>
-    <Implicit_KindOfTask>{5b0d831c-0af0-481e-b99c-a77139346ac6}</Implicit_KindOfTask>
-    <Implicit_Jitter_Distribution>{10fa2bdf-d4e2-4d73-94a3-8a92ac80509f}</Implicit_Jitter_Distribution>
-    <LibraryReferences>{97d88ee5-2fc8-4da9-a687-2e58d6472d82}</LibraryReferences>
-    <Released>false</Released>
-    <ProjectVersion>0.4.0</ProjectVersion>
-    <Author>reschsim</Author>
-    <GlobalVersionStructureIncluded>true</GlobalVersionStructureIncluded>
+    <Application>{b5563239-f6d8-40a9-a2c0-e2d775fd7092}</Application>
+    <TypeSystem>{6d51bc9d-8d9b-4d62-9526-e8fe560174b5}</TypeSystem>
+    <Implicit_Task_Info>{34326217-34fa-42c3-9c16-d2a5df943d43}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{06f9c3b8-5d2f-4bd5-9269-5f2648884e47}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{4c963226-de15-4973-ab7e-67c051288802}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{89690fd7-2425-48d0-a565-7936bb317689}</LibraryReferences>
     <Company>Lisec</Company>
-    <Title>Doc-Test</Title>
-    <POUsForPropertyAccessIncluded>true</POUsForPropertyAccessIncluded>
+    <Released>false</Released>
+    <Title>Doc-Test2</Title>
+    <ProjectVersion>0.4.0</ProjectVersion>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="DUTs" />
     <Folder Include="GVLs" />
-    <Folder Include="ITFs" />
-    <Folder Include="Project Information" />
-    <Folder Include="Version" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />
   </ItemGroup>
   <ItemGroup>
+    <PlaceholderReference Include="Doc-Test">
+      <DefaultResolution>Doc-Test, * (Lisec)</DefaultResolution>
+      <Namespace>Doc_Test</Namespace>
+    </PlaceholderReference>
     <PlaceholderReference Include="Tc2_Standard">
       <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
       <Namespace>Tc2_Standard</Namespace>
@@ -49,65 +47,31 @@
     </PlaceholderReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DUTs\DUT.TcTLEO">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DUTs\ST_Base.TcDUT">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DUTs\ST_Test1.TcDUT">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="GVLs\GVL_Test1.TcGVL">
-      <SubType>Code</SubType>
-      <LinkAlways>true</LinkAlways>
-    </Compile>
-    <Compile Include="ITFs\I_Base.TcIO">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\FB_Test1_Base.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\F_Test1.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\POU.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\FB_Test1.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Project Information\F_GetCompany.TcPOU">
-      <SubType>Code</SubType>
-      <SystemCall>true</SystemCall>
-    </Compile>
-    <Compile Include="Project Information\F_GetTitle.TcPOU">
-      <SubType>Code</SubType>
-      <SystemCall>true</SystemCall>
-    </Compile>
-    <Compile Include="Project Information\F_GetVersion.TcPOU">
-      <SubType>Code</SubType>
-      <SystemCall>true</SystemCall>
-    </Compile>
-    <Compile Include="Version\Global_Version.TcGVL">
+    <Compile Include="POUs\FB_Test2.TcPOU">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ZK_Doc1.tmc">
+    <None Include="ZK_Doc2.tmc">
       <SubType>Content</SubType>
     </None>
   </ItemGroup>
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
-        <Data>
-          <o xml:space="preserve" t="OptionKey">
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
       <v n="Name">"&lt;ProjectRoot&gt;"</v>
       <d n="SubKeys" t="Hashtable" ckt="String" cvt="OptionKey">
         <v>{192FAD59-8248-4824-A8DE-9177C94C195A}</v>
         <o>
           <v n="Name">"{192FAD59-8248-4824-A8DE-9177C94C195A}"</v>
+          <d n="SubKeys" t="Hashtable" />
+          <d n="Values" t="Hashtable" />
+        </o>
+        <v>{246001F4-279D-43AC-B241-948EB31120E1}</v>
+        <o>
+          <v n="Name">"{246001F4-279D-43AC-B241-948EB31120E1}"</v>
           <d n="SubKeys" t="Hashtable" />
           <d n="Values" t="Hashtable" />
         </o>
@@ -172,14 +136,14 @@
       </d>
       <d n="Values" t="Hashtable" />
     </o>
-        </Data>
-        <TypeList>
-          <Type n="Boolean">System.Boolean</Type>
-          <Type n="Hashtable">System.Collections.Hashtable</Type>
-          <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
-          <Type n="String">System.String</Type>
-        </TypeList>
-      </XmlArchive>
+  </Data>
+  <TypeList>
+    <Type n="Boolean">System.Boolean</Type>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
     </PlcProjectOptions>
   </ProjectExtensions>
 </Project>

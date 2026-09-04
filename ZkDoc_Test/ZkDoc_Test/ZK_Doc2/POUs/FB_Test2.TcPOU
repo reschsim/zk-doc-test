@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_Test2" Id="{75ba6874-2021-49a5-8686-502a27f69b48}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK INTERNAL ABSTRACT FB_Test2 EXTENDS FB_Test1_Base IMPLEMENTS I_Base
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="M_Test1" Id="{c0d66810-7824-4783-8c39-d5b5c2e2e780}">
+      <Declaration><![CDATA[{warning 'Methodenimplementierung hinzufügen'}
+/// This is a TestMethod
+METHOD M_Test1 : INT
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="M_Test2" Id="{fabd59d4-8007-488b-8c84-a98a80d764d0}">
+      <Declaration><![CDATA[METHOD M_Test2 : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Property Name="P_TestFor" Id="{55148c74-7c9f-4698-ae73-8b45e389e590}">
+      <Declaration><![CDATA[{warning 'Eigenschaftenimplementierung hinzufügen'}
+(* A Test Property with get and set*)
+PROPERTY P_TestFor : BOOL
+]]></Declaration>
+      <Get Name="Get" Id="{736795d1-82c0-40d6-97d8-2d7d528a811e}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[]]></ST>
+        </Implementation>
+      </Get>
+      <Set Name="Set" Id="{1c063c5d-338a-4a83-a19b-cede26bba8de}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+        <Implementation>
+          <ST><![CDATA[]]></ST>
+        </Implementation>
+      </Set>
+    </Property>
+  </POU>
+</TcPlcObject>

@@ -13,7 +13,7 @@
 /// 	FaultReaction --> Init: done\nnot initialized
 ///		FaultReaction --> Idle: done
 ///		Idle --> GoHome: home pressed
-///		```
+///	```
 FUNCTION F_Test1 : BOOL
 VAR_INPUT
 	stInput : ST_Test1; //< input1
