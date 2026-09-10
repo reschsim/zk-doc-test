@@ -166,6 +166,39 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc2.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/ZK_Doc2/FB_Test2.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc2/FB_Test2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "reference/ZK_Doc2/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ZK_Doc2/toc.html"
+        },
+        ".json": {
+          "relative_path": "reference/ZK_Doc2/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "reference/toc.yml",
       "output": {

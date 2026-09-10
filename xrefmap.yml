@@ -40,3 +40,9 @@ references:
 - uid: ZK_Doc1.ST_Test1
   name: ST_Test1
   href: reference/ZK_Doc1/ST_Test1.html
+- uid: ZK_Doc2
+  name: ZK_Doc2
+  href: reference/ZK_Doc2.html
+- uid: ZK_Doc2.FB_Test2
+  name: FB_Test2
+  href: reference/ZK_Doc2/FB_Test2.html
